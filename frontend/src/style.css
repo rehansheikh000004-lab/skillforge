@@ -1,0 +1,50 @@
+:root {
+  --bg: #0f0f12;
+  --card: rgba(255,255,255,0.06);
+  --accent: linear-gradient(45deg,#6a5af9,#8e6bff);
+  --text: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* simple containers */
+.auth-page, .center-box {
+  max-width: 420px;
+  margin: 60px auto;
+  padding: 24px;
+  background: var(--card);
+  border-radius: 12px;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 12px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  background: var(--accent);
+  color: white;
+  cursor: pointer;
+}
+
+.topbar {
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 16px;
+}
+
+.skill-card {
+  background: rgba(255,255,255,0.03);
+  padding:12px;
+  border-radius:8px;
+  margin-bottom:12px;
+}
